@@ -1,0 +1,68 @@
+
+    body {
+
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      padding: 60px 0;
+      font-family: "Poppins", Arial, sans-serif;
+    }
+
+    footer {
+      padding: 60px 0;
+      text-align: center;
+    }
+
+    .stats-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 120px; /* space between boxes */
+      flex-wrap: wrap;
+    }
+
+    .stat-box {
+      text-align: center;
+    }
+
+    .stat-box img {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 15px;
+    }
+
+    .stat-title {
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      color: #ffffffcc;
+      margin: 5px 0;
+    }
+
+    .stat-value {
+      font-size: 70px;
+      font-weight: 800;
+      margin: 0;
+      line-height: 1;
+    }
+
+    .stat-unit {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 5px;
+    }
+
+    @media (max-width: 768px) {
+      .stats-container {
+        gap: 60px;
+      }
+
+      .stat-value {
+        font-size: 50px;
+      }
+
+      .stat-unit {
+        font-size: 16px;
+      }
+    }
+
